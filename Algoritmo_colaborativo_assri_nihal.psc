@@ -1,29 +1,27 @@
-Algoritmo dfdsf
-	Algoritmo ejrc_vectores
-		Dimensión  vec1 [10]
-		Dimensión  vec2 [100]
-		Dimensión  vec3 [100]
-		definir vec1,vec2,vec3 como entero
-		
-		
-		Para i<-1 Hasta 5 Con Paso 1 Hacer
-			aprender  vec1 [yo]
-			aleta  para
-				Para i<-1 Hasta 5 Con Paso 1 Hacer
-					Aprender  vec2 [yo]
-					aleta  para
-						Para  i = 1  hasta  5  Con  Paso  1  Hacer
-							vec3 [ yo ] <- vec1 [ yo ] + vec2 [ yo ]
-						finpara
-						
-						escribir  " "
-						
-						Para i<-1 Hasta 25 Con Paso 1 Hacer
-							Escribir "el primer vector ", " = ",vec1[j]
-							Escribir "el segundo vector "," = ",vec2[j]
-							Escribir "el tercer vector ", " =  ",vec3[j]
-							"  "
-							aleta  para
-								
-finalgoritmo
+Algoritmo Tarea_Colaborativa_Nihal
+	//con Miguel
+	DimensiÃ³n  vec1[10]
+	DimensiÃ³n  vec2[10]
+	DimensiÃ³n  vec3[10]
+	definir vec1,vec2,vec3 como entero
+	
+	Para i<-1 Hasta 3 Con Paso 1 Hacer
+		Leer vec1[i]
+	FinPara
+	
+	Para i<-1 Hasta 3 Con Paso 1 Hacer
+		Leer vec2[i]
+	FinPara
+	
+	Para i<-1 Hasta 3 Con Paso 1 Hacer
+		vec3[i] = vec1[i] + vec2[i]
+	FinPara
+	
+	
+	Para i<-1 Hasta 3 Con Paso 1 Hacer
+		Escribir "Vec1: ", vec1[i]
+		Escribir "Vec2: ", vec2[i]
+		Escribir "Vec3: ", vec3[i]
+		Escribir ""
+	FinPara
 FinAlgoritmo
