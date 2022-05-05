@@ -1,8 +1,8 @@
 Algoritmo Tarea_Colaborativa_Nihal
-	//con Miguel
-	DimensiÃ³n  vec1[10]
-	DimensiÃ³n  vec2[10]
-	DimensiÃ³n  vec3[10]
+	//soy Miguel y acabo de corregir tu archivo y ahora hare un pull request
+	Dimensión  vec1[10]
+	Dimensión  vec2[10]
+	Dimensión  vec3[10]
 	definir vec1,vec2,vec3 como entero
 	
 	Para i<-1 Hasta 3 Con Paso 1 Hacer
